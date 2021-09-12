@@ -1,11 +1,11 @@
 <?php 
 class Material{
-private $tipoMaterial='';
-private $codigo='';
-private $autor='';
-private $titulo='';
-private $año=0;
-private $status='';
+protected $tipoMaterial='';
+protected $codigo='';
+protected $autor='';
+protected $titulo='';
+protected $año=0;
+protected $status='';
 
 function __construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status){
 $this->tipoMaterial=$tipoMaterial;

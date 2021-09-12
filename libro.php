@@ -1,6 +1,9 @@
 <?php 
+
 include ('material.php');
+
 class Libro extends Material{
+    
      private $editorial; 
      private $numeroPaginas;
      private $numeroCapitulos;
@@ -11,7 +14,7 @@ function __construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status,$editori
     $this->numeroPaginas=$numeroPaginas;
     $this->numeroCapitulos=$numeroCapitulos;
 }
-    function setEditorial($editorial){
+    function setEditorial($editorial){        
         $this->editorial=$editorial;
     }
     function setnumeroPaginas($numeroPaginas){
@@ -29,6 +32,10 @@ function __construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status,$editori
     function getnumeroCapitulos(){
         return $this->numeroCapitulos;
     }
+
+    function getAutor(){
+        return $this->autor;
+    }
 }
 $ob=new Libro('papel','ISBN 958-96700-0-8','Julio Verne','Viaje al centro de la tierra',1865,'Buen estado','EDITORIAL cupido','117','19');
 echo $ob->datos();
@@ -40,6 +47,3 @@ echo '<br>';
 echo 'NUMERO DE CAPITULOS: '.$ob->getnumeroCapitulos();
 echo '<br>';
 ?>
-
-
-
