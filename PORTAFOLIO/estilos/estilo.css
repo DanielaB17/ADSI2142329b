@@ -1,0 +1,62 @@
+html{
+    background-color: black;
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    margin-top: 70px;
+    background-color: #252424;
+    width: 990px;
+}
+li{
+    padding: 10px;
+    display: inline-block;
+    list-style-type: none;
+}
+a{
+    color: snow;
+}
+a:hover{
+    color: teal;
+}
+#se1{
+    width: 990px;
+    background-color:#252424;
+    height: 550px;
+}
+
+#se2{
+    margin-left: 130px;
+    background-color: #252424;
+}
+#di1{
+    padding-top: 30px;
+    padding-left: 20px;
+    float: left;
+    font-size: 20px;
+}
+#d1{
+    padding-top: 10px;
+    float: left;
+    padding-left: 10px;
+}
+#d2{
+    margin-top: 11px;
+    background-color: black;
+    width: 140px;
+    height: 519px;
+    float: right;
+    padding-right: 385px;
+    margin-right: 10px;
+
+}
+#nombre{
+    margin-left: 170px;
+    font-size: 50px;
+    color:cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#texto{
+    margin-left: 170px;
+    font-size: 30px;
+}
