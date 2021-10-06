@@ -14,26 +14,22 @@ li{
     list-style-type: none;
 }
 a{
+    text-decoration: none;
     color: snow;
 }
 a:hover{
     color: teal;
-}
-#se1{
-    width: 990px;
-    background-color:#252424;
-    height: 550px;
-}
-
-#se2{
-    margin-left: 130px;
-    background-color: #252424;
 }
 #di1{
     padding-top: 30px;
     padding-left: 20px;
     float: left;
     font-size: 20px;
+}
+#se1{
+    width: 990px;
+    background-color:#252424;
+    height: 550px;
 }
 #d1{
     padding-top: 10px;
@@ -59,4 +55,86 @@ a:hover{
 #texto{
     margin-left: 170px;
     font-size: 30px;
+}
+#se2{
+    margin-top: 15px;
+    width: 990px;
+    background-color:#252424;
+    height: 310px;
+}
+#d3{
+    padding-top: 10px;
+    float: right;
+    padding-right: 10px;
+}
+#d4{
+    margin-top: 11px;
+    background-color: black;
+    width: 140px;
+    height: 150px;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    padding: 20px 170px 120px 180px;
+
+}
+#nombre1{
+    font-size: 30px;
+    color:cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#texto1{
+    font-size: 10px;
+    color:snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#di2{
+    padding-top: 5px;
+    padding-left: 20px;
+    float: left;
+    font-size: 20px;
+}
+#img1{
+    width: 475px;
+}
+
+#se3{
+    width: 990px;
+    background-color:#252424;
+    height: 300px;
+    margin-top: 15px;
+}
+#d5{
+    padding-top: 2px;
+    text-align: center;
+}
+#d6{
+    background-color: black;
+    width: 970px;
+    height: 219px;
+    margin-left: 10px;
+
+}
+#bu1{
+    border-color: cadetblue;
+    margin-top: 50px;
+    margin-left: 350px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+}
+#bu2{
+    border-color: cadetblue;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+}
+#bu3{
+    border-color: cadetblue;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
 }
