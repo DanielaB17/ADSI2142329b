@@ -1,0 +1,31 @@
+html{
+    background-color: black;
+    padding-top: 210px;
+    color: snow;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    text-align: left;
+    margin-top: -300px;
+    background-color: #252424;
+    width: 990px;
+}
+li{
+    padding: 10px;
+    display: inline-block;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: snow;
+}
+a:hover{
+    color: teal;
+}
+#di1{
+    margin-top: -300px;
+    padding-left: 20px;
+    float: left;
+    font-size: 20px;
+}
