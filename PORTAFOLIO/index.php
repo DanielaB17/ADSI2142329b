@@ -29,7 +29,7 @@
     <section id="se2"> 
         <div id="d3"><img id="img1" src="imagenes/inicio.png"  alt="computador"></div>
         <div id="d4">
-            <p id="nombre1">DELICIA EXPRESS</p>
+            <a href="deliciaExpress/vista/inicio.php" id="nombre1">DELICIA EXPRESS</a>
             <p id="texto1">Este proyecto va enfocado a la venta de comidas rapidas, 
                 lo innovador de este es su funcionalidad de que el usuario pueda crear
             el plato a su gusto y de esa manera no tenga que simplemente conformarse con el menú ya existente</p>
@@ -38,8 +38,8 @@
     <section id="se3"> 
         <div id="d5"><h1>JAVASCRIPT</h1></div>
         <div id="d6">
-            <button id="bu1"><a href="funciones/index.html">Funciones Flecha</a></button>
-            <button id="bu2"><a href="fraccionarios/index.html">Fraccionarios</a></button>
+            <button id="bu1"><a href="funciones/index.php">Funciones Flecha</a></button>
+            <button id="bu2"><a href="fraccionarios/index.php">Fraccionarios</a></button>
             <button id="bu3"><a href="#">Herencia y composicion</a></button>
         </div>
     </section>    
