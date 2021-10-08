@@ -53,8 +53,10 @@ a:hover{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #texto{
-    margin-left: 170px;
-    font-size: 30px;
+    width: 500px;
+    margin-left: 10px;
+    text-align: center;
+
 }
 #se2{
     margin-top: 15px;
@@ -84,7 +86,10 @@ a:hover{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #texto1{
-    font-size: 10px;
+    width: 300px;
+    font-size: 15px;
+    margin-left: -90px;
+    text-align: center;
     color:snow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -137,4 +142,8 @@ a:hover{
     width: 100px;
     height: 100px;
     background-color: transparent;
+}
+footer{
+    margin-top: 10px;
+    text-align: center;
 }

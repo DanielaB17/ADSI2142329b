@@ -22,14 +22,16 @@
         <div id="d1"><img src="imagenes/img.png" alt="computador"></div>
         <div id="d2">
             <p id="nombre">DANIELA BENITEZ</p>
-            <p id="texto">Mi portafolio</p>
+            <p id="texto">Mi nombre es Helen Daniela Benitez Hipolito, me gradue de bachiler en el año 2019,tengo un tecnico en programacion de software y actualmente estudio ADSI, 
+                en este portafolio se podran encontrar algunos avances de mi proyecto de formación, asi mismo unas tareas realizadasen javascript, y la explicación paso paso de la elaboración de manuales de usuario y de software, el portafolio actualmente se encuentra en desarrollo y falta por agregar contenido.
+            </p>
         </div>
     </section>
     <div id="di2">MIS PROYECTOS</div><br>
     <section id="se2"> 
         <div id="d3"><img id="img1" src="imagenes/inicio.png"  alt="computador"></div>
         <div id="d4">
-            <a href="deliciaExpress/vista/inicio.php" id="nombre1">DELICIA EXPRESS</a>
+            <a href="deliciaExpress/vista/inicio.php" target="_blank" id="nombre1">DELICIA EXPRESS</a>
             <p id="texto1">Este proyecto va enfocado a la venta de comidas rapidas, 
                 lo innovador de este es su funcionalidad de que el usuario pueda crear
             el plato a su gusto y de esa manera no tenga que simplemente conformarse con el menú ya existente</p>
@@ -44,4 +46,7 @@
         </div>
     </section>    
 </body>
+<footer>
+    <a href="https://github.com/DanielaB17/ADSI2142329b" target="_blank" > Ir a  repositorio en github</a>
+</footer>
 </html>
