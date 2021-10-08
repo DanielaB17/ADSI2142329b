@@ -1,0 +1,6 @@
+La base de datos se encuentra en la carpeta PORTAFOLIO y en la subcarpeta deliciaExpress el nombre es delicia_express.sql
+
+
+Para poder revisar el portafolio la pagina inicial es index.php, en ella esta un menú que le permitira al usuario explorar 
+los distintos tipo de proyectos que se encuentran en el portafolio como lo son el proyecto de formación delicia express 
+y algunas tareas de javascript realizadas con anterioridad.
