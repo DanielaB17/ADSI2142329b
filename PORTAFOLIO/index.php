@@ -14,8 +14,8 @@
                     <a href="#se1"><li>Inicio</li></a>
                     <a href="#se2"><li>Mis Proyectos</li></a>
                     <a href="#se3"><li>Javascript</li></a>
-                    <a href="#"><li>Manual de usuario</li></a>
-                    <a href="#"><li>Manual de software</li></a>
+                    <a href="manual.php"><li>Manual de usuario</li></a>
+                    <a href="deliciaExpress/vista/adminverusuarios.php" target="blank"><li>CRUD</li></a>
                 </ul>
             </nav>
     <section id="se1"> 
@@ -42,7 +42,7 @@
         <div id="d6">
             <button id="bu1"><a href="funciones/index.php">Funciones Flecha</a></button>
             <button id="bu2"><a href="fraccionarios/index.php">Fraccionarios</a></button>
-            <button id="bu3"><a href="#">Herencia y composicion</a></button>
+            <button id="bu3"><a href="herencia y composicion/index.php">Herencia y composicion</a></button>
         </div>
     </section>    
 </body>

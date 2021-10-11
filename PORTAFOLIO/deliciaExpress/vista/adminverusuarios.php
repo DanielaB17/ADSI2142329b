@@ -50,8 +50,10 @@ include("../modelo/conexion.php");
 		<td><?php echo $reg['ContrasenaUsuarios'] ?></td>
 		<td><?php echo $reg['IdRoles'] ?></td>
 		<td>
-			<button>Editar</button>
-			<button>Eliminar</button>
+			<a href="actualizar.php"><button>Editar</button></a>
+			<form method="post" action="../modelo/eliminar.php"> 
+			<input class="b1" type="submit" id="m" name="register" value="Eliminar">
+			</form>
 		</td>
 	</tr>
 		
@@ -60,7 +62,7 @@ include("../modelo/conexion.php");
 	?>
 
 </table>
-<button>Crear nuevo usuario</button>
+<a href="regusua.php"><button>Crear nuevo usuario</button></a>
 </div>
 
 <?php
