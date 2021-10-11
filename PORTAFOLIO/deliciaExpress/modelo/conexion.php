@@ -1,15 +1,10 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$bd="deliciaexpress";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $bd);
-
-// Check connection
-/*if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+$host = "localhost";
+$usuario = "root";
+$contrasenia = "";
+$base_de_datos = "deliciaexpress";
+$mysqli = new mysqli($host, $usuario, $contrasenia, $base_de_datos);
+if ($mysqli->connect_errno) {
+    echo "Falló la conexión a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
-echo "Connected successfully";*/
-?>
+return $mysqli;

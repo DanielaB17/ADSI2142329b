@@ -35,7 +35,7 @@ include("../modelo/conexion.php");
     </tr>
 
     <?php	
-	$registro=mysqli_query($conn,"select IdUsuarios,NombreUsuarios,ApellidoUsuarios,EmailUsuarios,ContrasenaUsuarios,IdRoles from usuarios") or die("Problemas en la consulta: " .mysqli_error($conn));
+	$registro=mysqli_query($mysqli,"select IdUsuarios,NombreUsuarios,ApellidoUsuarios,EmailUsuarios,ContrasenaUsuarios,IdRoles from usuarios") or die("Problemas en la consulta: " .mysqli_error($conn));
 	?>
 
 	<?php
@@ -50,8 +50,10 @@ include("../modelo/conexion.php");
 		<td><?php echo $reg['ContrasenaUsuarios'] ?></td>
 		<td><?php echo $reg['IdRoles'] ?></td>
 		<td>
-			<a href="actualizar.php"><button>Editar</button></a>
-			<form method="post" action="../modelo/eliminar.php"> 
+		<form method="post" action="editar.php"> 
+			<input class="b1" type="submit" id="m" name="register" value="Editar">
+			</form>
+			<form method="post" action="eliminar.php"> 
 			<input class="b1" type="submit" id="m" name="register" value="Eliminar">
 			</form>
 		</td>
