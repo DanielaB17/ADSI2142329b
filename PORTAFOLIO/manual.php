@@ -12,11 +12,11 @@
     <div id="di1">MANUAL DE USUARIO</div><br>
     <nav>
                 <ul>
-                    <a href="../index.php#se1"><li>Inicio</li></a>
-                    <a href="../index.php#se2"><li>Mis Proyectos</li></a>
-                    <a href="../index.php#se3"><li>Javascript</li></a>
+                    <a href="index.php#se1"><li>Inicio</li></a>
+                    <a href="index.php#se2"><li>Mis Proyectos</li></a>
+                    <a href="index.php#se3"><li>Javascript</li></a>
                     <a href="manual.php"><li>Manual de usuario</li></a>
-                    <a href="../deliciaExpress/vista/adminverusuarios.php" target="blank"><li>CRUD</li></a>
+                    <a href="deliciaExpress/vista/adminverusuarios.php" target="blank"><li>CRUD</li></a>
                 </ul>
             </nav>
     <div id="manual">
