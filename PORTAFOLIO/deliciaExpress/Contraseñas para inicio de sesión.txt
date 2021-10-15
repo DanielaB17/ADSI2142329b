@@ -2,3 +2,6 @@
 INICIO DE SESION PARA ADMINISTRADORES
 Correo:admin@deliciaexpress.com
 Contraseña:admin
+INICIO DE SESION PARA CLIENTES
+Correo:helen@misena.edu.com
+Contraseña:12345

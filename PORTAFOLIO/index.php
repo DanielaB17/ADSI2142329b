@@ -15,7 +15,7 @@
                     <a href="#se2"><li>Mis Proyectos</li></a>
                     <a href="#se3"><li>Javascript</li></a>
                     <a href="manual.php"><li>Manual de usuario</li></a>
-                    <a href="deliciaExpress/vista/adminverusuarios.php" target="blank"><li>CRUD</li></a>
+                    <a href="CRUD/vista/index.php" target="blank"><li>CRUD</li></a>
                 </ul>
             </nav>
     <section id="se1"> 
